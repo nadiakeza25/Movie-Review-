@@ -1,0 +1,46 @@
+.createmovie{
+  min-height: 100vh;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inner_create_movie{
+  width: 50em;
+}
+
+
+.input ,.inputtextarea{
+  width: 100%;
+  padding: 1.5% 2%;
+  border-radius: 1em;
+  margin: 1% 0%;
+  border: 2px solid pink;
+  font-size: large;
+  color: white;
+  background-color: inherit;
+  border: 2px solid white;
+}
+.input::placeholder ,.inputtextarea::placeholder{
+  color:  rgba(255, 255, 255, 0.532);
+}
+
+.inputtextarea{
+  border-radius: 20px;
+}
+
+.btn-cr-mv{
+  margin: 4% 0%;
+  width: 100%;
+  padding: 2% 5%;
+  border-radius: 2em;
+  font-size: large;
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+  font-weight: 600;
+}
+.btn-cr-mv:hover{
+  background-color: white;
+  color: rgb(255, 3, 217);
+}
